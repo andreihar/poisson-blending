@@ -66,7 +66,7 @@ This project highlights the practical utility of gradient-domain processing for 
 <!-- RUN -->
 ## Run
 
-To run the main script, run:
+All relevant code is located in the `matlab` folder. To run the main script, run:
 
 ```matlab
 main

@@ -1,9 +1,9 @@
 close all
 clear variables
 
-source = imread('./data/source_01.jpg');
-mask = imread('./data/mask_01.jpg');
-target = imread('./data/target_01.jpg');
+source = imread('../data/source_01.jpg');
+mask = imread('../data/mask_01.jpg');
+target = imread('../data/target_01.jpg');
 
 offset = [ 210 10 ];
 source = im2double(source);
