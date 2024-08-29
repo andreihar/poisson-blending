@@ -86,9 +86,9 @@ Poisson Image Blending is a technique for seamlessly combining images by solving
 To solve the blending problem, the project first formulates the Poisson equation for the masked region in the source image. The least squares problem is solved using sparse matrix capabilities to handle the large system efficiently. The blending process is applied to both grayscale and colour images, where each colour channel is processed independently. By constructing a sparse matrix that encodes the Poisson equation constraints, the algorithm ensures a smooth transition between images. Special attention is given to handling boundary conditions and optimising the matrix operations to achieve high performance even for large images.
 
 <p align="center">
-<img src="readme/bear.jpg" alt="Bear" height="200">
-<img src="readme/plane.jpg" alt="Plane" height="200">
-<img src="readme/coin.jpg" alt="Coin" height="200">
+<img src="readme/bear.jpg" alt="Bear" width="150">
+<img src="readme/plane.jpg" alt="Plane" width="265">
+<img src="readme/coin.jpg" alt="Coin" width="200">
 </p>
 
 ### App
@@ -96,7 +96,7 @@ To solve the blending problem, the project first formulates the Poisson equation
 The Poisson Image Blending project features a MATLAB app designed using App Designer, which simplifies the image blending process. Users can easily select source and target images, create or load masks, and define the offset for placing the source image on the target image. The app provides an intuitive interface for visualising the blending results in real-time and allows users to export the final blended image. This tool offers a user-friendly way to experiment with and apply Poisson image blending techniques, making complex image compositing tasks more accessible and efficient.
 
 <p align="center">
-<img src="readme/app.jpg" alt="App" height="400">
+<img src="readme/app.jpg" alt="App" width="500">
 </p>
 
 
